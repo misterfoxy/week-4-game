@@ -1,6 +1,4 @@
-body{
-  background-color: #ddd;
-}
+
 h1{
   font-family: 'Quicksand', sans-serif;
 }
@@ -36,6 +34,11 @@ h3{
 .jewel-row{
   margin-left: 20px;
   margin-bottom: 20px;
+}
+
+.crystalImage{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #totalScore{

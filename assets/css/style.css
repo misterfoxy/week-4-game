@@ -1,0 +1,51 @@
+body{
+  background-color: #ddd;
+}
+h1{
+  font-family: 'Quicksand', sans-serif;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.instructions{
+  background-color: #e5a722;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.randomScore{
+  background-color: #43e050;
+  margin-left: 20px;
+  border-radius: 10px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+#random-score{
+  font-size: 28px;
+}
+.tally{
+  padding: 10px 0 10px 0;
+  background-color: #28c7d6;
+  border-radius: 10px;
+}
+
+.jewel-row{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#totalScore{
+  font-size: 20px;
+}
+
+.user-score-div{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+ul li{
+  list-style: none;
+}

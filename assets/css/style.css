@@ -1,16 +1,24 @@
 
 h1{
   font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: bold;
 }
 
 h3{
   font-family: 'Montserrat', sans-serif;
 }
+
+.jumbotron{
+  background-color: #ffc1f4;
+  border: 5px solid #eface3;
+
+}
+
 .instructions{
   background-color: #fcf34e;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  margin-bottom: 40px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
   border-radius: 10px;
   border: 5px solid #f4e838;
 }
@@ -21,22 +29,26 @@ h3{
   border-radius: 10px;
   line-height: 50px;
   margin-bottom: 10px;
-  padding: 10px 0 10px 0;
+  padding: 5px 0 5px 0;
 }
 
 #random-score{
   font-size: 28px;
 }
 .tally{
-  padding: 10px 0 10px 0;
-  background-color: #28c7d6;
-  border: 5px solid #1fb8c6;
+  padding: 5px 0 5px 0;
+  background-color: #43e050;
+  border: 5px solid #2cd638;
+  /*background-color: #28c7d6;
+  border: 5px solid #1fb8c6;*/
   border-radius: 10px;
 }
 
 .jewel-row{
-  margin-left: 70px;
+  margin-left: 30px;
   margin-bottom: 20px;
+
+  padding-left: 40px;
 
 }
 
@@ -64,4 +76,5 @@ h3{
 ul li{
   list-style: none;
   font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
 }

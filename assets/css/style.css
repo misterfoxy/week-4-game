@@ -12,14 +12,16 @@ h3{
   padding-top: 10px;
   margin-bottom: 40px;
   border-radius: 10px;
+  border: 5px solid #f4e838;
 }
 
 .randomScore{
   background-color: #43e050;
-  margin-left: 20px;
+  border: 5px solid #2cd638;
   border-radius: 10px;
   line-height: 50px;
   margin-bottom: 10px;
+  padding: 10px 0 10px 0;
 }
 
 #random-score{
@@ -28,12 +30,14 @@ h3{
 .tally{
   padding: 10px 0 10px 0;
   background-color: #28c7d6;
+  border: 5px solid #1fb8c6;
   border-radius: 10px;
 }
 
 .jewel-row{
-  margin-left: 20px;
+  margin-left: 70px;
   margin-bottom: 20px;
+
 }
 
 .crystalImage{
@@ -43,15 +47,21 @@ h3{
 
 #totalScore{
   font-size: 20px;
+
 }
 
 .user-score-div{
-  margin-top: 10px;
-  margin-left: 20px;
+  margin: 10px 0 20px 30px;
+  padding: 10px 10px 5px 0;
   background-color: #f97054;
+  border: 5px solid #e55f44;
   border-radius: 10px;
-  margin-bottom: 20px;
+
+  text-align: center;
+  width: 95%;
+
 }
 ul li{
   list-style: none;
+  font-family: 'Quicksand', sans-serif;
 }

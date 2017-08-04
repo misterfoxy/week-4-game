@@ -72,6 +72,8 @@ $(document).ready(function() {
     //click event for each crystal...
     $('.crystalImage').on("click", function() {
 
+  
+
       //pulls string containing crystal number value and converts value into integer
       counter += parseInt($(this).data('num'));
       $('.userScore').text(counter);

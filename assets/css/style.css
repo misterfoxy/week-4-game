@@ -7,7 +7,7 @@ h3{
   font-family: 'Montserrat', sans-serif;
 }
 .instructions{
-  background-color: #e5a722;
+  background-color: #fcf34e;
   padding-bottom: 20px;
   padding-top: 10px;
   margin-bottom: 40px;
@@ -48,6 +48,9 @@ h3{
 .user-score-div{
   margin-top: 10px;
   margin-left: 20px;
+  background-color: #f97054;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 ul li{
   list-style: none;

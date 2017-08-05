@@ -12,7 +12,7 @@ $(document).ready(function() {
 
   //function to choose random number for computer
   function chooseNumber() {
-    return Math.floor(Math.random() * 120 ) + 12;
+    return Math.floor(Math.random() * 120 ) + 19;
   }
 
   //function to reset user score
@@ -72,7 +72,7 @@ $(document).ready(function() {
     //click event for each crystal...
     $('.crystalImage').on("click", function() {
 
-  
+
 
       //pulls string containing crystal number value and converts value into integer
       counter += parseInt($(this).data('num'));

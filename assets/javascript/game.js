@@ -103,4 +103,14 @@ $(document).ready(function() {
       }
     });
   }
+
+  $('.resetButton').on("click", function(){
+    $('.jewel-row').empty();
+    wins = 0;
+    losses = 0;
+    $('#wins').text(wins);
+    $('#losses').text(losses);
+    makeCrystals();
+    startGame();
+  });
 });

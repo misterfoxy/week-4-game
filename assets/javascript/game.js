@@ -75,6 +75,7 @@ $(document).ready(function() {
 
 
       //pulls string containing crystal number value and converts value into integer
+      $('.lastCrystal').html(parseInt($(this).data('num')));
       counter += parseInt($(this).data('num'));
       $('.userScore').text(counter);
 
